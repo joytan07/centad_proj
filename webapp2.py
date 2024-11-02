@@ -48,7 +48,7 @@ cam_rgb.preview.link(xout_video.input)
 
 # Load the YOLO model (from Roboflow, for example)
 nn = pipeline.createYoloDetectionNetwork()
-nn.setBlobPath("C:/Users/joyta/OneDrive/Desktop/Joy/best_openvino_2022.1_6shave.blob")  # Use your .blob file
+nn.setBlobPath("best_openvino_2022.1_6shave.blob")  # Use your .blob file
 nn.setConfidenceThreshold(0.5)  # Set your desired confidence threshold
 
 # Set anchors and anchor masks
