@@ -1,4 +1,8 @@
-import depthai as dai
+try:
+    import depthai as dai
+except ImportError:
+    from unittest.mock import MagicMock
+    dai = MagicMock()
 import streamlit as st
 import cv2
 import numpy as np
