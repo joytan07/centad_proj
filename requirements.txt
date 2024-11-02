@@ -3,4 +3,3 @@ numpy>=1.26.0
 opencv-python==4.10.0.84
 pyserial==3.5
 streamlit==1.38.0
-python==3.9
